@@ -3,6 +3,10 @@
     
     
 } */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("../img/5276901-padrao-de-agua-textura-ondas-brilhantes-em-piscina-mar-ou-oceano-conceito-de-verao-vetor.jpg");
     background-size: contain;
@@ -56,18 +60,19 @@ h2 {
 
 .cabecalho {
     max-height: 75px;
+    width: 100%;
     background-color: blueviolet;
 }
 
 .logotipo img {
     max-width: 75px;
     max-height: 75px;
-
 }
 
 .navbar {
     float: right;
     font-size: 25px;
+   
     
 }
 
@@ -97,4 +102,44 @@ main {
     font-size: 75px;
     font-weight: bold;
     margin-left: 200px;
+}
+
+.sobre {
+    width: 130vh;
+    height: 100vh;
+    background-color: #4b6596;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 250px;
+    border-radius: 25px;
+    opacity: 90%;
+}
+
+.sbore-container {
+    position: absolute;
+    width: 120vh;
+    height: 90vh;
+    margin: 5vh;
+    font-size: 24px;
+    font-style: italic;
+    color: #fff;
+}
+
+.ppp {
+    font-size: 35px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    
+    
+}
+
+.footer {
+    width: 100%;
+    height: 4vh;
+    background-color: #d3cfcf;
+    text-align: center;
+    
 }
