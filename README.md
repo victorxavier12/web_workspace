@@ -1,3 +1,0 @@
-# web_workspace
- 
-    PROJETO PARA UM CURSO DE TECNOLOGIA 
