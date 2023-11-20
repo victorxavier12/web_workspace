@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/resetstyle.css">
-    <link rel="shotcut icon" href="../img/logotipo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="css/style.css">
-    
-
-    <title>stand virtual</title>
-</head>
-<body>
-    <header class="cabecalho">
-        <div class="logotipo">
-            <img src="img/logotipo.png" alt="logo tipo">
-            <nav class="navbar">
-                <ul class="ul">
-                <li><a href="#carros">carros</a></li>
-                <li><a href="#motas">motas</a></li>
-                <li><a href="#pecas">peças</a></li>
-                <li><a href="#sobre">sobre</a></li>
-                <li><a href="">contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<? 
+include "./php/cabecalho.php"
+?>
     <main>
         <p id="carros" class="representacao">carros:</p>
         <div class="container text-center">
@@ -316,36 +289,7 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div id="sobre" class="sobre">
-            <div class="sbore-container">
-                <p class="ppp">
-                    sobre nós:
-                </p>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ad repellendus, dignissimos, delectus excepturi molestias voluptate tenetur vero debitis consequuntur fugiat eligendi dolor. Doloribus quae sint alias suscipit voluptates ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti placeat nihil quisquam quasi fugit distinctio aut repellat molestiae enim totam, vero rerum dignissimos aperiam laboriosam libero rem, doloribus velit eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quisquam quaerat sed. In deleniti aspernatur quo eligendi dolor culpa earum impedit dolorum, quasi vero nam maiores, iste atque dignissimos ducimus.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit culpa itaque quasi deserunt maiores velit consequatur veniam inventore earum adipisci! Totam, sequi aut. Aliquam sapiente sequi asperiores qui reiciendis quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perspiciatis inventore exercitationem rem voluptates, nihil animi molestiae dolor saepe assumenda labore sed molestias earum reprehenderit et ipsum esse nam? Nulla! lor
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos non deleniti nulla accusamus laboriosam aut quia iusto impedit beatae deserunt? Quibusdam voluptatum numquam, placeat nobis dolorum qui ad tenetur. Ipsam.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita odio deleniti obcaecati aperiam veniam libero, voluptates laborum voluptatibus exercitationem voluptatem, maxime ut non ex. Deleniti ad labore nam dolorum?
-                </p>
-            </div>
-        </div>
-        <div class="footer">
-            <p>
-                copyright &COPY; 2023 victor xavier 
-            </p>
-
-        </div>
-    </footer>
-</body>
-</html>
+<?
+include "./php/rodape.php"
+?>
