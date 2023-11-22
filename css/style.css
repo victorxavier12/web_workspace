@@ -142,3 +142,13 @@ main {
     background-color: #d3cfcf;
     text-align: center;
 }
+
+.formulario {
+   margin: 0;
+   width: auto;
+   height: auto;
+}
+.col-md-5 {
+    margin-left: 50%;
+}
+

@@ -22,6 +22,9 @@
                 </p>
             </div>
         </div>
+        <?
+        include "./php/form.php"
+        ?>
         <div class="footer">
             <p>
                 copyright &COPY; 2023 victor xavier 

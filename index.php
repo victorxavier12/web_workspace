@@ -1,5 +1,5 @@
 <? 
-include "./php/cabecalho.php"
+include "./php/cabecalho.php";
 ?>
     <main>
         <p id="carros" class="representacao">carros:</p>
@@ -291,5 +291,5 @@ include "./php/cabecalho.php"
     </main>
 
 <?
-include "./php/rodape.php"
+include "./php/rodape.php";
 ?>
