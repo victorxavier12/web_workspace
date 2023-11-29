@@ -25,7 +25,7 @@
                 <li><a href="#motas">motas</a></li>
                 <li><a href="#pecas">peças</a></li>
                 <li><a href="#sobre">sobre</a></li>
-                <li><a href="">contato</a></li>
+                <li><a href="../formpage.php">contato</a></li>
                 </ul>
             </nav>
         </div>
