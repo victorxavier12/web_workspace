@@ -8,6 +8,8 @@ html {
 }
 
 body {
+    width: 100%;
+    height: 100%;
     background-image: url("../img/5276901-padrao-de-agua-textura-ondas-brilhantes-em-piscina-mar-ou-oceano-conceito-de-verao-vetor.jpg");
     background-size: contain;
 }
@@ -141,6 +143,11 @@ main {
     height: 4vh;
     background-color: #d3cfcf;
     text-align: center;
+}
+
+footer {
+    margin-bottom: 0;
+    margin-top: 100%;
 }
 
 .formulario {
