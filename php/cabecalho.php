@@ -18,7 +18,7 @@
 <body>
     <header class="cabecalho">
         <div class="logotipo">
-            <img src="../img/logotipo.png" alt="logo tipo">
+            <a href="../index.php"><img src="../img/logotipo.png" alt="logo tipo"></a>  
             <nav class="navbar">
                 <ul class="ul">
                 <li><a href="#carros">carros</a></li>
