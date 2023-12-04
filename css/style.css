@@ -165,3 +165,14 @@ main {
     background-color: #4b6596;
 }
 
+.enviar {
+    height: 40px;
+    width: 100px;
+    float: right;
+    background-color: rgb(74, 74, 146);
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+
+    
+}
